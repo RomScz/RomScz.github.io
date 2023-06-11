@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Romain Sconza</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- add icon link -->
+  <link rel = "icon" href ="icon.png" type = "image/x-icon"> 
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Romain SCONZA</a>
+
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#technical">TECHNICAL SKILLS</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#experiences">EXPERIENCES</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="index FR.html"><img src="french flag.png" alt="Page en français" style="width:30px;height:20px;"></a></li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Container (Project Section) -->
+<div id="project" class="container-fluid text-center bg-grey">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>Big Data Group Project</h2>
+        <div class="container">
+          <div class="card">
+            <div class="card-body">
+              <p style="text-align: justify;"><strong>Description:</strong></p>
+  
+              <div style="text-align: justify;">
+                <p>In this group project focused on Big Data, my team and I worked with a significant amount of data sourced from hospitals, patients, doctors, and related entities. Our main objective was to leverage this data to create a comprehensive solution that would aid hospital employees in monitoring and making informed decisions. To accomplish this, we employed Talend for job creation, developed a data warehouse, and utilized the data to create intuitive dashboards.</p>
+  
+                <p>Here's an overview of the project's main stages:</p>
+  
+                <ol>
+                  <li>Data Collection and Integration: We collected data from various sources, such as hospitals, patient records, and doctor profiles. The data was diverse and came in different formats. We used Talend, a powerful data integration tool, to design and develop jobs that efficiently extracted, transformed, and loaded (ETL) the data into our data warehouse. Talend's intuitive interface and extensive library of connectors facilitated the integration process.</li>
+                  <li>Data Warehouse Design and Implementation: We designed a robust and scalable data warehouse architecture to store and manage the collected data effectively. The data warehouse acted as a centralized repository, providing a unified view of the hospital-related data. By structuring the data warehouse appropriately, we ensured optimized data retrieval and analysis.</li>
+                  <li>Data Cleansing and Transformation: Before storing the data in the data warehouse, we performed thorough data cleansing and transformation. This involved handling missing values, removing duplicates, standardizing data formats, and resolving any inconsistencies. By ensuring data quality and uniformity, we laid a solid foundation for accurate analysis and reporting.</li>
+                  <li>Dashboard Creation: To facilitate data visualization and decision-making, we created interactive and user-friendly dashboards. We leveraged tools like Power BI, Tableau, or custom web development frameworks to design visually appealing and insightful dashboards. Power BI, a powerful business intelligence tool, enabled us to analyze and visualize big data effectively. These dashboards provided hospital employees with key performance indicators (KPIs), trends, and relevant metrics to monitor the hospital's operations, patient outcomes, resource allocation, and other critical aspects.</li>
+                  <li>User-Friendly Interface: In addition to the dashboards, we focused on developing an intuitive user interface that allowed hospital employees to navigate and interact with the data effectively. We incorporated features like drill-down functionality, filters, and interactive elements to provide a seamless user experience. The interface was designed to be accessible to both technical and non-technical users, ensuring ease of use and adoption. By leveraging Power BI's intuitive interface and interactive capabilities, we empowered hospital employees to explore and derive meaningful insights from big data in a user-friendly manner.</li>
+                  <li>Security and Privacy Considerations: Given the sensitive nature of healthcare data, we implemented robust security measures to protect patient privacy and comply with relevant regulations (such as HIPAA). Access controls, encryption, and anonymization techniques were employed to safeguard data integrity and maintain confidentiality.</li>
+                  <li>Testing and Validation: We conducted extensive testing and validation of our solution to ensure its accuracy, reliability, and scalability. We performed unit tests, integration tests, and user acceptance testing to verify the functionality and performance of the data warehouse, ETL processes, and dashboards. Feedback from hospital employees was incorporated to refine the solution further.</li>
+                </ol>
+  
+                <p>Throughout the project, effective collaboration, communication, and project management played key roles in achieving our objectives. We documented our processes, methodologies, and technical specifications to ensure knowledge transfer and facilitate future maintenance and updates.</p>
+  
+                <p>By successfully completing this Big Data project, our team demonstrated proficiency in data integration, ETL processes, data warehousing, and data visualization. We provided hospital employees with valuable insights and tools to monitor operations, make informed decisions, and improve overall efficiency and patient care.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="bigdata.png" alt="POO" width="1100" height="650">
+  </div>
+  
+
+<footer class="container-fluid text-center">
+
+<br><br>
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <br>
+  <p class="col-md-4 mb-0 text-muted">© 2023 Romain Sconza</p>
+  
+  <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+  </a>
+
+</footer>
+
+  
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
+</html>
